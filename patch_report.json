@@ -1,0 +1,17 @@
+{
+  "patchedFiles": [
+    "types.ts",
+    "services/geminiService.ts",
+    "utils/demoCache.ts",
+    "components/ResultsView.tsx",
+    "components/ReasoningSidebar.tsx",
+    "components/EvidenceMap.tsx"
+  ],
+  "summary": "Applied backend normalization for confidence fractions, defensive UI mappings, and evidence highlighting system.",
+  "sanityCheck": {
+    "hasDifferentials": true,
+    "primaryRaw": 95,
+    "primaryCalibrated": 87.78,
+    "primaryScaleUsed": "percent-scale"
+  }
+}
